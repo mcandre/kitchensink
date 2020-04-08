@@ -49,7 +49,7 @@ In the beginning were *containers*. And they were good. They would scale UP prod
 
 That's where kitchensink comes in. Your application matters. When you have a problem, you want the only technical difference between your laptop and prod to be credentials and a replication factor. Anyone can offer "microservices". We offer *minimal deployments*, designed to squeeze complex systems onto your test rig, so that you have more breathing room to prototype, hotfix, and streamline your SDLC.
 
-The DevOps world is going bonkers right now with expertise all over the map. Some of you may be subject matter experts. If you've already syscall-gated WASM CloudABI bundles building cross-platform with fully OS-agnostic orchestration DSL's, great! And some of you could be newbies practicing your first coding snippets. The wonder of microservices is that all kinds of individuals are working on this cool stuff. For everything in-between, *containers* bae.
+The DevOps world is going bananas right now, with a huge community and expertise all over the spectrum. Some of you may be subject matter experts. If you've already syscall-gated WASM CloudABI bundles building cross-platform with fully OS-agnostic orchestration DSL's, great! And some of you could be newbies practicing your first coding snippets. That's awesome! The wonder of microservices is that all kinds of individuals are working on this cool stuff. For everything in-between, *containers* bae.
 
 # REQUIREMENTS
 
