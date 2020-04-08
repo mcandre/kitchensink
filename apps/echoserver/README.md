@@ -3,8 +3,9 @@
 # EXAMPLE
 
 ```console
-$ echoserver
-
+$ mkdir -p bin
+$ go build -o bin/echoserver .
+$ ./bin/echoserver
 $ curl http://localhost:8080/ -d batmobile
 batmobile
 ```
@@ -13,9 +14,6 @@ batmobile
 
 * [Go](https://golang.org/) 1.14+
 
-# COMPILE
+# RUNTIME REQUIREMENTS
 
-```console
-$ mkdir bin
-$ go build -o bin/echoserver .
-```
+(none)
