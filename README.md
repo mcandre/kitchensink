@@ -78,9 +78,7 @@ In the beginning were *containers*. And they were good. They would scale UP prod
 
 That's where kitchensink comes in. Your application matters. When you have a problem, you want the only technical difference between your laptop and prod to be credentials and a replication factor. Anyone can offer "microservices". We offer *minimal deployments*, designed to squeeze complex systems onto your test rig, so that you have more breathing room to prototype, hotfix, and streamline your SDLC.
 
-The DevOps world is going bananas right now, with a huge community and expertise all over the spectrum. Some of you may be subject matter experts. If you've already syscall-gated WASM CloudABI bundles building cross-platform with fully OS-agnostic orchestration DSL's, great! Let's keep building.
-
-And some of you could be newbies practicing your first coding snippets. That's awesome! The wonder of microservices is that all kinds of individuals are working on this cool stuff. For everything in-between, *containers* bae.
+As a bonus, structuring your software as containers helps contributors to get up to speed building and running your stuff. No matter whether you're on Mac, Windows, Linux, or something even stranger than that, containers can make everything much easier to manage. The examples above are meant to illustrate just how flexible containerized systems can be.
 
 # REQUIREMENTS
 
@@ -93,6 +91,7 @@ And some of you could be newbies practicing your first coding snippets. That's a
 ## Recommended
 
 * [Docker Desktop](https://www.docker.com/) (includes docker and docker-compose)
+* [VirtualBox](https://www.virtualbox.org/)
 
 # WARNING FOR MINIKUBE - DOCKER DESKTOP INTEGRATION
 
@@ -105,3 +104,9 @@ https://github.com/kubernetes/minikube/issues/7497
 If this happens, you may invoke `minikube delete` to get back to a functioning state.
 
 Remember to unset all `minikube docker-env` environment variables prior to launching any raw `docker run` deployments.
+
+# OUTRO
+
+The DevOps world is going bananas right now, with a huge community and expertise all over the spectrum. Some of you may be subject matter experts. If you've already syscall-gated WASM CloudABI bundles building cross-platform with fully OS-agnostic orchestration DSL's, great! Let's keep building.
+
+And some of you could be newbies practicing your first coding snippets. That's awesome! The wonder of microservices is that all kinds of individuals are working on this cool stuff. Welcome aboard. For everything in-between, *containers* bae.
