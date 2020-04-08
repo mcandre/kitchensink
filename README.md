@@ -63,6 +63,7 @@ batmobile
 # EXAMPLE (HOST)
 
 ```console
+$ cd apps/echoserver
 $ mkdir -p bin
 $ go build -o bin/echoserver .
 $ ./bin/echoserver
