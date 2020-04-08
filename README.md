@@ -20,7 +20,7 @@
 $ kubectl apply -f kubernetes/echoserver.k8s.yml
 $ kubectl get pods
 NAME                          READY   STATUS    RESTARTS   AGE
-echoserver-56dd7f9db7-j2hsd   0/1     Running   0          1s
+echoserver-56dd7f9db7-j2hsd   1/1     Running   0          10s
 $ kubectl port-forward echoserver-56dd7f9db7-j2hsd 8080:8080
 $ curl http://localhost:8080/ -d batmobile
 batmobile
@@ -35,7 +35,7 @@ $ sh -c "cd apps/echoserver && ./build.sh"
 $ kubectl apply -f kubernetes/echoserver.yml
 $ kubectl get pods
 NAME                          READY   STATUS    RESTARTS   AGE
-echoserver-56dd7f9db7-94k84   0/1     Running   0          1s
+echoserver-56dd7f9db7-94k84   1/1     Running   0          10s
 $ kubectl port-forward echoserver-56dd7f9db7-94k84 8080:8080
 $ curl http://localhost:8080/ -d batmobile
 batmobile
