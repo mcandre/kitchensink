@@ -17,7 +17,7 @@
 # EXAMPLE (KUBERNETES)
 
 ```console
-$ kubectl apply -f kubernetes/echoserver.yml
+$ kubectl apply -f kubernetes/echoserver.k8s.yml
 $ kubectl get pods
 NAME                          READY   STATUS    RESTARTS   AGE
 echoserver-56dd7f9db7-j2hsd   0/1     Running   0          1s
