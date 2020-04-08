@@ -1,5 +1,19 @@
 # kitchensink: Squeezing as many software stacks as possible into scale-down container deployments
 
+```text
+     ___
+    -_-.`.
+    '-' \ \__.__
+   /````-()-    `
+  /  /`  `````/ |
+ \'-. ......./  |
+  \  `         /
+   `--.-------' bp
+          ___) )
+         ( ___'
+          \ \
+```
+
 # EXAMPLE (MINIKUBE)
 
 ```console
