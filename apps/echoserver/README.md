@@ -3,6 +3,8 @@
 # EXAMPLE
 
 ```console
+$ echoserver
+
 $ curl http://localhost:8080/ -d batmobile
 batmobile
 ```
@@ -14,5 +16,6 @@ batmobile
 # COMPILE
 
 ```console
-$ go build -o echoserver .
+$ mkdir bin
+$ go build -o bin/echoserver .
 ```
