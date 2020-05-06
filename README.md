@@ -31,7 +31,7 @@ batmobile
 ```console
 $ minikube start
 $ eval "$(minikube docker-env)"
-$ sh -c "cd apps/echoserver && ./build.sh"
+$ sh -c "cd apps/echoserver && ./build"
 $ kubectl apply -f kubernetes/echoserver.yml
 $ kubectl get pods
 NAME                          READY   STATUS    RESTARTS   AGE
@@ -54,7 +54,7 @@ batmobile
 
 ```console
 $ cd apps/echoserver
-$ ./build.sh
+$ ./build
 $ docker run --rm -it -p 8080:8080 mcandre/echoserver:latest
 $ curl http://localhost:8080/ -d batmobile
 batmobile

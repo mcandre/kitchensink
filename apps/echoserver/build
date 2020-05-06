@@ -1,2 +1,5 @@
 #!/bin/sh
+set -eu
+IFS="$(printf '%b_' '\n\t ')"
+IFS="${IFS%_}"
 docker build -t mcandre/echoserver:latest .
